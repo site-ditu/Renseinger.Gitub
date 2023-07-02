@@ -1,0 +1,96 @@
+/* Styles pour la page de réunion */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2, h3 {
+  color: blue;
+}
+h1{
+  color: #efeff0;
+  background-color: blue;
+  margin: 15px;
+  padding: 1px;
+  text-align: justify;
+}
+
+nav {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color: blue;
+  border-bottom: 1px solid #000000;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px;
+}
+
+nav ul li a:hover {
+  background-color: blue;
+  color: #857e7e;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: blue;
+  color: #fff;
+}
+
+.upcoming-events .event {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #d7d4d4;
+}
+
+footer {
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Ajoutez d'autres styles CSS personnalisés ici */
+
