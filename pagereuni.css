@@ -1,0 +1,97 @@
+/* pagereuni.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(253, 253, 253);
+    border: 5px;
+    background-color: blue;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  .meeting-details p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .attendees-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .attendees-list li {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .agenda ol {
+    padding-left: 20px;
+    color: #333;
+  }
+  
+  .meeting-notes a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .meeting-notes a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+  }
+  
+  footer p {
+    font-size: 12px;
+  }
+  
+  /* Styles pour la navigation */
+  
+  header {
+    background-color:blue;
+    padding:12px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
