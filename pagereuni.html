@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEEMN</title>
+    <link rel="stylesheet" href="pagereuni.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="pagecom.html">Déconnecté</a></li>
+              <li><a href="Acueil.html">Acueil</a></li>
+              <li><a href="pagevene.php">Evenements</a></li>
+            </ul>
+          </nav>
+    </header>
+  <div class="container">
+    <h1>Réunion</h1>
+    
+    <div class="meeting-details">
+      <h2>Détails de la réunion</h2>
+      <p>Date: 2 juillet 2023</p>
+      <p>Heure: 14h00 - 16h00</p>
+      <p>Lieu: Ecole courantique</p>
+    </div>
+    
+    <div class="attendees-list">
+      <h2>Liste des participants</h2>
+      <ul>
+        <li>John Doe</li>
+        <li>Jane Smith</li>
+        <li>Robert Johnson</li>
+        <li>Emily Davis</li>
+      </ul>
+    </div>
+    
+    <div class="agenda">
+      <h2>Ordre du jour</h2>
+      <ol>
+        <li>Présentation de l'équipe</li>
+        <li>Discussion sur le projet XYZ</li>
+        <li>Examen des problèmes rencontrés</li>
+        <li>Planification des prochaines étapes</li>
+        <li>Questions et réponses</li>
+      </ol>
+    </div>
+    
+    <div class="meeting-notes">
+      <h2>Notes de réunion</h2>
+     <a href="https://meet.google.com/gso-jdux-rxc"><p>participer à la reunion</p></a> 
+      <p>Les notes de réunion seront ajoutées ici après la réunion.</p>
+    </div>
+  </div>
+  
+  <div class="video-section">
+    <h2>Vidéos de la réunion</h2>
+    <form id="video-form" action="#" method="post">
+        <label for="video-title">Titre de la vidéo :</label>
+        <input type="text" id="video-title" name="video-title" required>
+        <label for="video-url">URL de la vidéo :</label>
+        <input type="url" id="video-url" name="video-url" required>
+        <input type="submit" value="Ajouter la vidéo">
+    </form>
+    
+    <div class="video-gallery">
+        <!-- Affichage des vidéos ajoutées -->
+        <div class="video">
+            <h3>Titre de la vidéo</h3>
+            <video controls>
+                <source src="chemin_vers_la_video.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos.
+            </video>
+        </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 Association des anciens élèves. Tous droits réservés.</p>
+  </footer>
+  
+</body>
+</html>
